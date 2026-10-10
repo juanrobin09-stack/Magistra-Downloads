@@ -1,6 +1,6 @@
 # Magistra pour Windows
 
-Magistra aide les enseignants à préparer leurs cours, exercices et évaluations avec une IA locale.
+Magistra aide les enseignants à préparer leurs cours, exercices et évaluations avec une IA locale ou une API personnelle optionnelle.
 
 **[Télécharger Magistra pour Windows](https://github.com/juanrobin09-stack/Magistra-Downloads/releases/latest/download/Magistra-Setup.exe)** · **[Découvrir Magistra](https://www.mag-istra.fr)**
 
@@ -19,6 +19,14 @@ Les [versions publiées](https://github.com/juanrobin09-stack/Magistra-Downloads
 Dans l’application Windows, choisissez **Activer l’IA**. Magistra prépare le moteur local et un modèle adapté à votre ordinateur. La taille du téléchargement est indiquée avant de commencer ; cette préparation nécessite une connexion Internet et plusieurs Go d’espace libre.
 
 Une fois le moteur prêt, les générations locales s’exécutent sur votre ordinateur. Relisez et adaptez les contenus avant de les utiliser avec vos élèves ou étudiants.
+
+## Utiliser une clé API personnelle
+
+Depuis la version 2.0.8, ouvrez **Réglages → Intelligence artificielle → IA avec une clé API personnelle**. Choisissez **OpenAI, Mistral, Gemini ou Anthropic**, collez votre clé, puis cliquez sur **Enregistrer et utiliser l’API**. Aucun moteur ni modèle local n’est nécessaire pour cette option.
+
+La clé est masquée et chiffrée sur cet ordinateur. Une seule configuration en ligne est conservée : changer de fournisseur remplace la précédente. Le bouton **Utiliser l’IA locale** conserve la clé ; **Supprimer la clé API** efface cette configuration.
+
+Le mode API nécessite Internet et envoie au fournisseur choisi les consignes et les extraits de documents utilisés pour générer. Les frais et quotas dépendent de votre compte API. L’IA locale reste disponible sans clé.
 
 ## Mises à jour
 
