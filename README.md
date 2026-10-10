@@ -30,7 +30,9 @@ Le mode API nécessite Internet et envoie au fournisseur choisi les consignes et
 
 ## Mises à jour
 
-Pour installer une nouvelle version, téléchargez le dernier installateur depuis cette page ou depuis [le site Magistra](https://www.mag-istra.fr). Les anciennes versions qui ne trouvent plus les mises à jour doivent également passer par ce lien.
+La version **2.0.9** corrige le téléchargement intégré des mises à jour sous Windows. Si vous utilisez **2.0.7 ou 2.0.8**, téléchargez et ouvrez le dernier installateur une fois depuis [le site Magistra](https://www.mag-istra.fr/telecharger) pour récupérer ce correctif. Enregistrez votre travail et fermez Magistra avant de l’ouvrir ; les données enregistrées, les réglages et les modèles sont conservés.
+
+Les versions corrigées contrôlent chaque redirection officielle et vérifient la taille et l’empreinte SHA-256 du fichier avant son ouverture. Si l’installation intégrée échoue, un bouton permet de télécharger depuis le site.
 
 ## Contact et notices
 
